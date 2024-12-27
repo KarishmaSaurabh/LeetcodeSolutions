@@ -44,7 +44,8 @@ class Solution {
                 dp[i][j]=mi;
             }
         }
-        return dp[1][n-1];
+  //return min multiplications to multiply matrix 1 to matrix n-1
+        return dp[1][n-1]; 
         
     }
 };
