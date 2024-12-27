@@ -1,5 +1,5 @@
 //partition dp-->MCM
-//memoization
+//memoization--tc=O(n^3)
 class Solution {
   public:
     vector<vector<int>> dp;
@@ -25,7 +25,7 @@ class Solution {
     }
 };
 
-//bottom-up
+//bottom-up--- O(n^3)
 class Solution {
   public:
     int matrixMultiplication(vector<int> &arr) {
