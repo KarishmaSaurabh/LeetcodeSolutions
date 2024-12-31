@@ -9,6 +9,7 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+//TC=O(n)--to traverse all n nodes, SC=O(h)-height of binary tree
 class Solution {
 public:
     vector<int> v;
