@@ -9,8 +9,9 @@ vector<int> dfsOfGraph(int V, vector<int> adj[]) {
         vector<int> res;
         vector<int> vis(V, 0);
         for(int i=0;i<V;i++){
-            if(!vis[i])
-				dfs(i, vis, adj, res);
+            if(!vis[i]){
+	      dfs(i, vis, adj, res);
+	    }
         }
         return res;
 }
